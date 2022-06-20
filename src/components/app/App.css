@@ -1,0 +1,11 @@
+.app {
+  margin: auto;
+  max-width: 600px;
+  background-color: #f5f5f5;
+}
+.title {
+  text-align: center;
+  font-size: 120px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.2);
+}
