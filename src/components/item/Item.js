@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { statusChange } from "../../actions";
+import { statusChange } from "../itemList/itemsSlice";
 import "./Item.css";
 
 const Item = ({ id, text, status, onDelete }) => {
@@ -17,7 +17,7 @@ const Item = ({ id, text, status, onDelete }) => {
           defaultChecked={status === true ? "checked" : null}
           onChange={chengeCheckbox}
         ></input>
-        {text}
+        <span>{text} </span>    
       </label>
     </div>
   );

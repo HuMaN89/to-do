@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { createSelector } from "@reduxjs/toolkit";
-import { itemDeleted } from "../../actions";
+import { itemDeleted } from "./itemsSlice"; 
 import AddItem from "../addItem/AddItem";
 import Item from "../item/Item";
 import "./ItemList.css";

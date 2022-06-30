@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { v4 as uuidv4 } from "uuid";
-import { itemAdd } from "../../actions";
+import { itemAdd } from "../itemList/itemsSlice";
 import "./AddItem.css";
 
 const AddItem = () => {

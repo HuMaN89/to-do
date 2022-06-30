@@ -1,5 +1,5 @@
 import { useDispatch} from "react-redux";
-import { activeFilterChanged, itemDeleted } from "../../actions";
+import { activeFilterChanged, itemDeleted } from "../itemList/itemsSlice";
 
 
 import "./StatePanel.css";

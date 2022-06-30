@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import items from "../reducer";
+import items from "../components/itemList/itemsSlice";
 
 const store = configureStore({
   reducer: { items },
